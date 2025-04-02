@@ -13,15 +13,9 @@ $dotenv->load();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// $nome = $_POST['nome'];
-// $email = $_POST['email'];
-// $telefone = $_POST['telefone'];
-// $mensagem = $_POST['mensagem'];
-
-$nome = 'Nome completo';
-$email = 'email@gmail.com';
-$telefone = '(11) 99999-9999';
-$mensagem = 'Olá, tudo bem?';
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$telefone = $_POST['tel'];
 
 $respostaSuccess = [
     "success" => true,
@@ -67,12 +61,11 @@ try {
         <p style="margin-top:-5px; color: black;">Nome: ' . $nome . '</p>
         <p style="margin-top:-5px; color: black;">E-mail: ' . $email . '</p>
         <p style="margin-top:-5px; color: black;">Telefone: ' . $telefone . '</p>
-        <p style="margin-top:-5px; color: black;">Mensagem: ' . $mensagem . '</p>
     ';
 
     $mail->send();
 
-    echo json_encode([$respostaSuccess]);
+    header('Location: ' . $_ENV['BASE_URL'] . 'index.php?success=true');
     exit;
 
 } catch (Exception $e) {

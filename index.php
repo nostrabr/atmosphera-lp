@@ -11,10 +11,30 @@
 </head>
 <body>
 
+    <!-- LOADING -->
+    <?php include_once  __DIR__ .'/modulos/loading/index.php'; ?>
+    <!-- LOADING -->
 
+    <!-- BANNER INÍCIAL -->
+    <?php include_once  __DIR__ .'/modulos/banner-inicial/index.php'; ?>
+    <!-- BANNER INÍCIAL -->
+
+    <!-- FORMULÁRIO -->
+    <?php include_once  __DIR__ .'/modulos/formulario/index.php'; ?>
+    <!-- FORMULÁRIO -->
+
+    <!-- BANNER 2 -->
+    <?php include_once  __DIR__ .'/modulos/banner-bem-vindo/index.php'; ?>
+    <!-- BANNER 2 -->
+
+    <!-- MAPA -->
+    <?php include_once  __DIR__ .'/modulos/mapa/index.php'; ?>
+    <!-- MAPA -->
 
 
     
+    
+
     
 
     <!-- SCROLL ANIMATION -->

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    text-decoration: none !important;
+    transition: 300ms !important;
+}
+a:hover{
+    opacity: .7 !important;
+    transition: 500ms !important;
+}
+
+body{
+    font-family: 'Bitter', serif !important;
+}
+
+
+/* PALHETA DE CORES */
+.text-0{
+    color: #6A9033 !important;
+}
+.bg-0{
+    background-color: #6A9033 !important;
+}
+.text-1{
+    color: #3D441E !important;
+}
+.bg-1{
+    background-color: #3D441E !important;
+}
+.text-2{
+    color: #497B55 !important;
+}
+.bg-2{
+    background-color: #497B55 !important;
+}
+.text-3{
+    color: #595D59 !important;
+}
+.bg-3{
+    background-color: #595D59 !important;
+}
+.text-4{
+    color: #595D59 !important;
+}
+.bg-4{
+    background-color: #595D59 !important;
+}
+.text-5{
+    color: #DCCC97 !important;
+}
+.bg-5{
+    background-color: #DCCC97 !important;
+}

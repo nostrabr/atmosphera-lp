@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="<?= $base_url; ?>assets/utils/fancybox/fancybox.css">
     
     <!-- BOOTSTRAP -->
-    <link href="<?= $base_url; ?>assets/utils/bootstrap/bootstrap.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="<?= $base_url; ?>assets/utils/bootstrap/bootstrap.css" rel="stylesheet">
 
     <!-- GLOBAL CSS -->
     <link rel="stylesheet" href="<?= $base_url; ?>assets/css/style.css">

@@ -27,9 +27,21 @@
     <?php include_once  __DIR__ .'/modulos/banner-bem-vindo/index.php'; ?>
     <!-- BANNER 2 -->
 
+    <!-- BANNER SLIDER -->
+    <?php include_once  __DIR__ .'/modulos/banner-slider/index.php'; ?>
+    <!-- BANNER SLIDER -->
+
     <!-- GALERIA DE IMAGENS -->
     <?php include_once  __DIR__ .'/modulos/galeria-de-imagens/index.php'; ?>
     <!-- GALERIA DE IMAGENS -->
+
+    <!-- PLANTAS -->
+    <?php include_once  __DIR__ .'/modulos/plantas/index.php'; ?>
+    <!-- PLANTAS -->
+
+    <!-- DETALHES -->
+    <?php include_once  __DIR__ .'/modulos/detalhes/index.php'; ?>
+    <!-- DETALHES -->
 
     <!-- MAPA -->
     <?php include_once  __DIR__ .'/modulos/mapa/index.php'; ?>

@@ -27,10 +27,17 @@
     <?php include_once  __DIR__ .'/modulos/banner-bem-vindo/index.php'; ?>
     <!-- BANNER 2 -->
 
+    <!-- GALERIA DE IMAGENS -->
+    <?php include_once  __DIR__ .'/modulos/galeria-de-imagens/index.php'; ?>
+    <!-- GALERIA DE IMAGENS -->
+
     <!-- MAPA -->
     <?php include_once  __DIR__ .'/modulos/mapa/index.php'; ?>
     <!-- MAPA -->
 
+    <!-- FOOTER -->
+    <?php include_once  __DIR__ .'/modulos/footer/index.php'; ?>
+    <!-- FOOTER -->
 
     
     

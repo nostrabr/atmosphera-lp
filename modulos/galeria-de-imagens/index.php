@@ -67,7 +67,7 @@
 
 
 
-<section class="py-5 bg-2" style="border-top: 7px solid #DCCC97;">
+<section class="py-5 bg-2">
     <div class="position-relative container py-5 my-4 my-lg-5 mx-auto">
         <h2 class="mb-0 text-center fw-semibold text-5">Galeria de Imagens</h2>
         <p class="mb-5 fs-4 text-white fw-normal text-center">Áreas Comuns</p>

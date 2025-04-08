@@ -173,7 +173,7 @@
                 <button data-index="1">4º Pav. Área de Lazer</button>
                 <button data-index="2">3º Pav. Garagem</button>
                 <button data-index="3">2º Pav. Garagem</button>
-                <button data-index="4">1º Pav. Garagem</button>
+                <button data-index="4">1º Pav. Térreo</button>
             </div>
             <!-- desktop -->
 
@@ -209,7 +209,7 @@ const plantas = [
     { title: "4º Pav. Área de Lazer", src: "<?= $base_url; ?>assets/imagens/site/planta-2.png" },
     { title: "3º Pav. Garagem", src: "<?= $base_url; ?>assets/imagens/site/planta-3.png" },
     { title: "2º Pav. Garagem", src: "<?= $base_url; ?>assets/imagens/site/planta-4.png" },
-    { title: "1º Pav. Garagem", src: "<?= $base_url; ?>assets/imagens/site/planta-5.png" },
+    { title: "1º Pav. Téreo", src: "<?= $base_url; ?>assets/imagens/site/planta-5.png" },
 ];
 
 let currentIndex = 0;

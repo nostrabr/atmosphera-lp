@@ -68,6 +68,15 @@
             font-size: 14px;
         }
     }
+
+    #wpp-detalhes{
+        background: #6A9033;
+        color: #DCCC97;
+        padding: 10px 35px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: normal;
+    }
 </style>
 
 
@@ -120,7 +129,9 @@
                 <p class="op-detalhes text-1 mb-4 fw-semibold">Hall de entrada decorado.</p>
                 <p class="op-detalhes text-1 mb-4 fw-semibold">Amplas esquadrias.</p>
                 <p class="op-detalhes text-1 mb-4 fw-semibold">Excelente ventilação e iluminação natural dos ambientes.</p>
-                <p class="op-detalhes text-1 mb-4 fw-semibold">Ampla área de lazer</p>
+                <p class="op-detalhes text-1 mb-5 fw-semibold">Ampla área de lazer</p>
+
+                <a href="https://api.whatsapp.com/send/?phone=5554999013231&text&type=phone_number&app_absent=0" target="_blank" id="wpp-detalhes" class="fw-semibold mt-5"><i class="me-2 fab fa-whatsapp"></i> Saber mais</a>
             </div>
         </div>
     </div>

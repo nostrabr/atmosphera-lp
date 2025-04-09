@@ -24,9 +24,9 @@
     <?php include_once  __DIR__ .'/modulos/banner-inicial/index.php'; ?>
     <!-- BANNER INÍCIAL -->
 
-    <!-- FORMULÁRIO -->
-    <?php include_once  __DIR__ .'/modulos/formulario/index.php'; ?>
-    <!-- FORMULÁRIO -->
+    <!-- EMPREENDIMENTO -->
+    <?php include_once  __DIR__ .'/modulos/empreendimento/index.php'; ?>
+    <!-- EMPREENDIMENTO -->
 
     <!-- BANNER 2 -->
     <?php include_once  __DIR__ .'/modulos/banner-bem-vindo/index.php'; ?>
@@ -51,6 +51,10 @@
     <!-- MAPA -->
     <?php include_once  __DIR__ .'/modulos/mapa/index.php'; ?>
     <!-- MAPA -->
+
+    <!-- FORMULÁRIO -->
+    <?php include_once  __DIR__ .'/modulos/formulario/index.php'; ?>
+    <!-- FORMULÁRIO -->
 
     <!-- FOOTER -->
     <?php include_once  __DIR__ .'/modulos/footer/index.php'; ?>

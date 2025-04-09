@@ -9,16 +9,17 @@
     .form-input{
         background-color: transparent;
         border: none;
-        border-bottom: 2px solid #3D441E;
+        border-bottom: 2px solid #DCCC97;
         padding: 10px 3px !important;
+        color: #DCCC97 !important;
     }
     .form-input::placeholder{
-        color: #3D441E;
+        color: #DCCC97 !important;
         font-weight: bold;
     }
     #button-form{
-        background-color: #3D441E;
-        color: #DCCC97;
+        background-color: #DCCC97;
+        color: #3D441E;
         border: none;
         padding: 10px 20px;
         font-size: 16px;
@@ -29,8 +30,8 @@
     }
     #button-form:hover{
         background-color: transparent;
-        color: #3D441E;
-        border: 1px solid #3D441E;
+        color: #DCCC97;
+        border: 1px solid #DCCC97;
         transition: .5s;
     }
     .form-input:focus {
@@ -42,10 +43,20 @@
             width: 90%;
         }
     }
+
+    #division{
+        height: 8px !important;
+        width: 100% !important;
+        background-image: linear-gradient(to right, #DCCC97, #6A9033, #497B55) !important;
+    }
 </style>
 
+<!-- DIVISION -->
+<div id="division"></div>
+<!-- DIVISION -->
 
-<section id="formulario" class="bg-5 py-5">
+
+<section id="formulario" class="bg-1 py-5" style="border-bottom: 1px solid #DCCC97;">
     <div class="container mx-auto row py-3">
         <div class="col-12 col-lg-6 mb-5 mb-lg-0">
             <div class="container-content-formulario"><img src='<?= $base_url ?>assets/imagens/site/content-contato.png'></div>
